@@ -1,0 +1,78 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpei6lc42rjun"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_uxn4q"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uxn4q")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -200.0
+offset_right = 200.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 3
+
+[node name="Button0" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button1" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button5" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button6" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button7" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="Button8" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(133, 133)
+layout_mode = 2
+
+[node name="ResetButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -75.0
+offset_top = -100.0
+offset_right = 75.0
+offset_bottom = -50.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Reset"
